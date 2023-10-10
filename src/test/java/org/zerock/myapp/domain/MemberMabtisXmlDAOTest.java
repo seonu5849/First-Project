@@ -1,11 +1,18 @@
 package org.zerock.myapp.domain;
 
 import lombok.extern.log4j.Log4j2;
+<<<<<<< HEAD
+=======
+import org.assertj.core.api.Assertions;
+>>>>>>> d0d0fe1ca36811be60d96f6b56c32c011065d4be
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.transaction.annotation.Transactional;
+<<<<<<< HEAD
 import org.zerock.myapp.domain.member.MemberVO;
+=======
+>>>>>>> d0d0fe1ca36811be60d96f6b56c32c011065d4be
 import org.zerock.myapp.repository.MemberMabtisXmlDAO;
 
 import java.util.List;
